@@ -1,0 +1,19 @@
+<addon id="plugin.video.wavve" name="wavve" provider-name="YO" version="1.0.0">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="inputstream.adaptive" version="2.3.22" />
+		<import addon="script.module.inputstreamhelper" version="0.4.2" />
+	</requires>
+	<extension library="default.py" point="xbmc.python.pluginsource">
+    	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">wavve for Kodi</summary>
+		<summary lang="kr">wavve for Kodi</summary>
+		<description lang="en_GB">wavve Live and Vod service</description>
+		<description lang="kr">wavve Live 및 다시보기 서비스</description>
+		<language />
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	</extension>
+</addon>

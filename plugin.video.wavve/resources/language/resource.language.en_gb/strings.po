@@ -1,0 +1,138 @@
+# Kodi Media Center language file
+# Addon Name: wavve
+# Addon id: plugin.video.wavve
+# Addon Provider: YO
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: https://forum.kodi.tv/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Team-Kodi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "Preview"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Next Page"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Input Search Keyword"
+msgstr ""
+
+msgctxt "#30004"
+msgid "TV VOD"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Movie"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Search"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Recent"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Hot"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Live TV"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Recommendation"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Watched"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Previous Page"
+msgstr ""
+
+msgctxt "#30013"
+msgid "VOD - Program"
+msgstr ""
+
+msgctxt "#30014"
+msgid "VOD - Episode"
+msgstr ""
+
+msgctxt "#30100"
+msgid "ID:"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Password:"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Stream Quality"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Manually select the stream quality"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Ultra-High"
+msgstr ""
+
+msgctxt "#30105"
+msgid "High"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Normal"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Mobile"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Display Grade On The Title"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Over 19 Only to Display Grade On The Title"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Audio Mode"
+msgstr ""
+
+msgctxt "#30201"
+msgid "Set your ID or Password."
+msgstr ""
+
+msgctxt "#30202"
+msgid "Are you change settings now?"
+msgstr ""
+
+msgctxt "#30203"
+msgid "Login Failed!"
+msgstr ""
+
+msgctxt "#30204"
+msgid "Can't broadcast because no copyright."
+msgstr ""
+
+msgctxt "#30205"
+msgid "Select stream quality."
+msgstr ""
+
