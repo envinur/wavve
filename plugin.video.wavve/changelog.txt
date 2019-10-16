@@ -1,2 +1,5 @@
-﻿1.0.0
+1.0.1
+- Can search more than 30 results when searching
+
+1.0.0
 - Initial addon version.
