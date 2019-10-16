@@ -341,8 +341,9 @@ def dp_search():
 def search_list(p):
     addon_log('search_list!')
     searchby = p['searchby']
-    pageno = p.get('pageno', 1)
-    kwd = get_keyboard_input(__language__(30003).encode('utf-8'))
+    pageno = int(p.get('pageno', 1))
+
+    kwd = p['kwd'] if 'kwd' in p else get_keyboard_input(__language__(30003).encode('utf-8'))
     if kwd:
         items = Wavve().Search(searchby, kwd, pageno)
         if 'celllist' in items:
@@ -374,7 +375,15 @@ def search_list(p):
                             else:
                                 item['pcode'] = bodylist[7:]
                     addDir(item)
-    xbmcplugin.endOfDirectory(int(sys.argv[1]))
+        if pageno != 1:
+            item = dict(pageno = int(pageno)-1, category = p['category'], kwd = kwd, searchby = searchby)
+            item['title'] = '<< ' + __language__(30012).encode('utf8')
+            addDir(item)
+        if int(items['pagecount']) > Wavve().limit:
+            item = dict(pageno = int(pageno)+1, category = p['category'], kwd = kwd, searchby = searchby)
+            item['title'] = __language__(30002).encode('utf8') + ' >>'
+            addDir(item)
+        xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
 def get_keyboard_input(heading, hidden=False):
     input_text = None
@@ -412,8 +421,8 @@ def addon_noti(sting):
 def addon_log(string, isDebug=False):
     try:
         log_message = string.encode('utf-8', 'ignore')
-    except:
-        log_message = 'addonException: addon_log'
+    except Exception as e:
+        log_message = e.message
     if isDebug:
         level = xbmc.LOGDEBUG
     else:
@@ -444,7 +453,6 @@ def addDir(item, infoLabels=None):
     except:
         item['title'] = quote(title.encode('UTF-8'))
     url = '%s?%s' % (sys.argv[0], urlencode(item))
-    addon_log('%s' % url)
     listitem = xbmcgui.ListItem(title)
     listitem.setArt({'thumbnailImage':img, 'icon':img})
     if infoLabels is None:
