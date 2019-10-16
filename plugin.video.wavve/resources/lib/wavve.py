@@ -55,7 +55,7 @@ class Wavve(object):
             if credential: isLogin = True
             write_file(CREDENTIALDATA, credential )
         except:
-            islogin = False
+            isLogin = False
         return isLogin
 
     def GetListSub(self, mode):
@@ -165,14 +165,14 @@ class Wavve(object):
             awscookie+= '%s=%s' % (key, query[key])
         return drm, playurl, awscookie
 
-    def Search( self, vod_type, keyword, pageno ):
+    def Search( self, type, keyword, pageno ):
         try:
             url_path = 'cf/search/list.js'
             params = { 'keyword': keyword,
                         'limit': self.limit,
                         'offset': (pageno-1) * self.limit,
                         'orderby': 'score',
-                        'type': vod_type,
+                        'type': type,
                         'apikey': 'self.apikey',
                        }
             url = '%s%s?%s' % (self.api_domain, url_path, urlencode(params))
