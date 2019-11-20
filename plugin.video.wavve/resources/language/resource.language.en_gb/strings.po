@@ -72,6 +72,14 @@ msgctxt "#30014"
 msgid "VOD - Episode"
 msgstr ""
 
+msgctxt "#30015"
+msgid "Movie - General"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Movie - Adults"
+msgstr ""
+
 msgctxt "#30100"
 msgid "ID:"
 msgstr ""
@@ -116,6 +124,10 @@ msgctxt "#30110"
 msgid "Audio Mode"
 msgstr ""
 
+msgctxt "#30111"
+msgid "Hide Adult Contents from Watched"
+msgstr ""
+
 msgctxt "#30201"
 msgid "Set your ID or Password."
 msgstr ""
@@ -136,3 +148,6 @@ msgctxt "#30205"
 msgid "Select stream quality."
 msgstr ""
 
+msgctxt "#30206"
+msgid "No Search Result"
+msgstr ""

@@ -58,7 +58,7 @@ msgstr "추천"
 
 msgctxt "#30011"
 msgid "Watched"
-msgstr "다시보기"
+msgstr "최근시청"
 
 msgctxt "#30012"
 msgid "Previous Page"
@@ -71,6 +71,14 @@ msgstr "방송VOD - 프로그램"
 msgctxt "#30014"
 msgid "VOD - Episode"
 msgstr "방송VOD - 에피소드"
+
+msgctxt "#30015"
+msgid "Movie - General"
+msgstr "영화 - 일반"
+
+msgctxt "#30016"
+msgid "Movie - Adults"
+msgstr "영화 - 성인"
 
 msgctxt "#30100"
 msgid "ID:"
@@ -116,6 +124,10 @@ msgctxt "#30110"
 msgid "Audio Mode"
 msgstr "오디오모드"
 
+msgctxt "#30111"
+msgid "Hide Adult Contents from Watched"
+msgstr "19금 시청목록 숨기기"
+
 msgctxt "#30201"
 msgid "Set your ID or Password."
 msgstr "아이디 또는 패스워드를 설정하세요."
@@ -135,4 +147,8 @@ msgstr "저작권이 없는 프로그램으로 방송이 불가합니다."
 msgctxt "#30205"
 msgid "Select stream quality."
 msgstr "시청할 화질을 선택하세요."
+
+msgctxt "#30206"
+msgid "No Search Result"
+msgstr "검색 결과가 없습니다"
 

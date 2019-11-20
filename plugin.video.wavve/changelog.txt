@@ -1,5 +1,52 @@
+1.0.15
+- inputstream adaptive version update
+
+1.0.14
+- epg load fix
+
+1.0.13
+- QVOD error fix
+- added Yesterday Program list
+
+1.0.12
+- QVOD add back in episode list and error fix
+
+1.0.11
+- added mpaa in infolabels
+
+1.0.10
+- QVOD is not added to episode list
+
+1.0.9
+- bug fix
+
+1.0.8
+- epg information in local time
+- minor bug fixes
+
+1.0.7
+- added synopsis and epg information for recently watched
+
+1.0.6
+- added EPG information for live channels
+
+1.0.5
+- access for overseas users without VPN
+- minor impovements
+
+1.0.4
+- changed poster item
+- changed vod popularcontents to show VODs
+- error fix
+
+1.0.3
+- changed inputstream adaptive version
+
+1.0.2
+- changed a way to search newcontents, popularcontents and recentcontents
+
 1.0.1
-- Can search more than 30 results when searching
+- Can search more than 30 results when searching.
 
 1.0.0
 - Initial addon version.
